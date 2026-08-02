@@ -1,0 +1,125 @@
+/* ===========================
+   ملف JavaScript الموحد للموقع
+   مؤسسة بشائر التوريد للتجارة
+=========================== */
+
+/* ===========================
+   تأثيرات ظهور العناصر عند التمرير
+=========================== */
+
+const revealElements = document.querySelectorAll(".reveal");
+
+function revealOnScroll() {
+    revealElements.forEach((el) => {
+        const windowHeight = window.innerHeight;
+        const elementTop = el.getBoundingClientRect().top;
+
+        if (elementTop < windowHeight - 100) {
+            el.classList.add("active");
+        }
+    });
+}
+
+window.addEventListener("scroll", revealOnScroll);
+
+
+/* ===========================
+   نظام السلة (جاهز للتطوير)
+=========================== */
+
+let cart = JSON.parse(localStorage.getItem("cart")) || [];
+
+// إضافة منتج للسلة
+function addToCart(productName, price, image) {
+    const item = {
+        name: productName,
+        price: price,
+        image: image,
+        quantity: 1
+    };
+
+    cart.push(item);
+    localStorage.setItem("cart", JSON.stringify(cart));
+
+    alert("تمت إضافة المنتج إلى السلة");
+}
+
+// حساب الإجمالي
+function calculateTotal() {
+    let total = 0;
+    cart.forEach(item => {
+        total += item.price * item.quantity;
+    });
+    return total;
+}
+
+// عرض السلة في صفحة cart.html
+function displayCart() {
+    const cartContainer = document.getElementById("cart-items");
+    const totalBox = document.getElementById("cart-total");
+
+    if (!cartContainer) return;
+
+    cartContainer.innerHTML = "";
+
+    cart.forEach((item, index) => {
+        cartContainer.innerHTML += `
+            <div class="cart-item">
+                <img src="${item.image}" alt="${item.name}">
+                <div class="cart-details">
+                    <h3>${item.name}</h3>
+                    <p>${item.price} ريال</p>
+                    <div class="quantity-box">
+                        <label>الكمية:</label>
+                        <input type="number" value="${item.quantity}" min="1" onchange="updateQuantity(${index}, this.value)">
+                    </div>
+                </div>
+            </div>
+        `;
+    });
+
+    totalBox.innerHTML = calculateTotal() + " ريال";
+}
+
+// تحديث كمية المنتج
+function updateQuantity(index, quantity) {
+    cart[index].quantity = parseInt(quantity);
+    localStorage.setItem("cart", JSON.stringify(cart));
+    displayCart();
+}
+
+// تنظيف السلة
+function clearCart() {
+    cart = [];
+    localStorage.removeItem("cart");
+    alert("تم حذف جميع المنتجات من السلة");
+    displayCart();
+}
+
+
+/* ===========================
+   زر العودة للأعلى
+=========================== */
+
+const backToTopBtn = document.getElementById("backToTop");
+
+if (backToTopBtn) {
+    window.addEventListener("scroll", () => {
+        if (window.scrollY > 400) {
+            backToTopBtn.style.display = "block";
+        } else {
+            backToTopBtn.style.display = "none";
+        }
+    });
+
+    backToTopBtn.addEventListener("click", () => {
+        window.scrollTo({ top: 0, behavior: "smooth" });
+    });
+}
+
+
+/* ===========================
+   جاهز لإضافة أي وظائف مستقبلية
+=========================== */
+
+console.log("main.js جاهز للعمل — مؤسسة بشائر التوريد للتجارة");

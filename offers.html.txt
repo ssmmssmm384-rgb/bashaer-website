@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8" />
+    <title>عروض الشركات | مؤسسة بشائر التوريد للتجارة</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@300;400;600;700&display=swap" rel="stylesheet">
+
+    <!-- Main CSS -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+<header>
+    <div class="container nav">
+        <div class="logo">
+            مؤسسة بشائر التوريد <span>للتجارة</span>
+        </div>
+
+        <div class="nav-links">
+            <a href="index.html">الرئيسية</a>
+            <a href="products.html">المنتجات</a>
+            <a href="about.html">نبذة عنا</a>
+            <a href="shop.html">المتجر</a>
+            <a href="offers.html">عروض الشركات</a>
+            <a href="contact.html">تواصل معنا</a>
+        </div>
+    </div>
+</header>
+
+<section class="container">
+    <h2 class="section-title">عروض الشركات</h2>
+    <p class="section-subtitle">نقدم حلول سلامة متكاملة بأسعار خاصة لشركات المقاولات والمشاريع.</p>
+
+    <!-- Offers Cards -->
+    <div class="products-grid">
+
+        <div class="product-card">
+            <h3>عروض المشاريع الكبيرة</h3>
+            <p>خصومات خاصة على الطفايات، السترات، والخوذ عند الطلب بكميات كبيرة.</p>
+        </div>
+
+        <div class="product-card">
+            <h3>عروض الشركات المتوسطة</h3>
+            <p>باقات سلامة جاهزة تشمل معدات أساسية بأسعار تنافسية.</p>
+        </div>
+
+        <div class="product-card">
+            <h3>عروض المواقع الصحراوية</h3>
+            <p>منتجات عضوية لحماية العمال من الجفاف والحرارة.</p>
+        </div>
+
+    </div>
+
+    <!-- Offer Form -->
+    <h2 class="section-title">طلب عرض سعر</h2>
+    <p class="section-subtitle">املأ النموذج وسيتم التواصل معك خلال 24 ساعة.</p>
+
+    <form>
+        <input type="text" placeholder="اسم الشركة">
+        <input type="text" placeholder="اسم الشخص المسؤول">
+        <input type="tel" placeholder="رقم الجوال">
+        <input type="email" placeholder="البريد الإلكتروني">
+
+        <select>
+            <option>اختر نوع العرض المطلوب</option>
+            <option>معدات سلامة</option>
+            <option>معدات إطفاء</option>
+            <option>ملابس سلامة</option>
+            <option>باقات متكاملة</option>
+        </select>
+
+        <textarea placeholder="اكتب تفاصيل الطلب هنا"></textarea>
+
+        <button class="btn btn-primary">إرسال الطلب</button>
+    </form>
+
+</section>
+
+<!-- WhatsApp Button -->
+<a class="whatsapp-btn" href="https://wa.me/966540708026" target="_blank">
+    تواصل عبر واتساب
+</a>
+
+<footer>
+    © مؤسسة بشائر التوريد للتجارة — جميع الحقوق محفوظة
+</footer>
+
+<!-- Main JS -->
+<script src="js/main.js"></script>
+
+</body>
+</html>

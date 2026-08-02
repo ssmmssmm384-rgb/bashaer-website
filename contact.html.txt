@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8" />
+    <title>تواصل معنا | مؤسسة بشائر التوريد للتجارة</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@300;400;600;700&display=swap" rel="stylesheet">
+
+    <!-- Main CSS -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+<header>
+    <div class="container nav">
+        <div class="logo">
+            مؤسسة بشائر التوريد <span>للتجارة</span>
+        </div>
+
+        <div class="nav-links">
+            <a href="index.html">الرئيسية</a>
+            <a href="products.html">المنتجات</a>
+            <a href="about.html">نبذة عنا</a>
+            <a href="shop.html">المتجر</a>
+            <a href="offers.html">عروض الشركات</a>
+            <a href="contact.html">تواصل معنا</a>
+        </div>
+    </div>
+</header>
+
+<section class="container">
+    <h2 class="section-title">تواصل معنا</h2>
+    <p class="section-subtitle">يسعدنا خدمتك وتقديم عروض خاصة لشركات المقاولات.</p>
+
+    <div class="about-grid">
+
+        <!-- Contact Form -->
+        <form>
+            <input type="text" placeholder="الاسم الكامل">
+            <input type="email" placeholder="البريد الإلكتروني">
+            <input type="tel" placeholder="رقم الجوال">
+            <textarea placeholder="اكتب رسالتك هنا"></textarea>
+            <button class="btn btn-primary">إرسال الرسالة</button>
+        </form>
+
+        <!-- Contact Info -->
+        <div class="contact-info">
+            <p><strong>رقم الجوال:</strong> 0540708026</p>
+            <p><strong>البريد الإلكتروني:</strong> INFO@bashaeraltawreed.com</p>
+            <p><strong>العنوان:</strong> المملكة العربية السعودية — مكة المكرمة</p>
+            <p>نخدم جميع شركات المقاولات والمشاريع في المملكة.</p>
+        </div>
+
+    </div>
+</section>
+
+<!-- WhatsApp Button -->
+<a class="whatsapp-btn" href="https://wa.me/966540708026" target="_blank">
+    تواصل عبر واتساب
+</a>
+
+<footer>
+    © مؤسسة بشائر التوريد للتجارة — جميع الحقوق محفوظة
+</footer>
+
+<!-- Main JS -->
+<script src="js/main.js"></script>
+
+</body>
+</html>

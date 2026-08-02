@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8" />
+    <title>سياسة الاسترجاع والاستبدال | مؤسسة بشائر التوريد للتجارة</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@300;400;600;700&display=swap" rel="stylesheet">
+
+    <!-- Main CSS -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+<header>
+    <div class="container nav">
+        <div class="logo">
+            مؤسسة بشائر التوريد <span>للتجارة</span>
+        </div>
+
+        <div class="nav-links">
+            <a href="index.html">الرئيسية</a>
+            <a href="products.html">المنتجات</a>
+            <a href="about.html">نبذة عنا</a>
+            <a href="shop.html">المتجر</a>
+            <a href="offers.html">عروض الشركات</a>
+            <a href="contact.html">تواصل معنا</a>
+        </div>
+    </div>
+</header>
+
+<section class="container">
+    <h2 class="section-title">سياسة الاسترجاع والاستبدال</h2>
+    <p class="section-subtitle">نهدف إلى ضمان رضا عملائنا وتقديم تجربة شراء موثوقة وآمنة.</p>
+
+    <div class="about-box">
+
+        <h3>1. شروط الاسترجاع</h3>
+        <p>
+            يمكن للعميل استرجاع المنتج خلال مدة أقصاها 7 أيام من تاريخ الاستلام، بشرط أن يكون المنتج بحالته الأصلية
+            وغير مستخدم، مع كامل الملحقات والتغليف.
+        </p>
+
+        <h3>2. شروط الاستبدال</h3>
+        <p>
+            يمكن استبدال المنتج خلال 14 يومًا من تاريخ الاستلام، بشرط أن يكون المنتج غير مستخدم وبحالته الأصلية.
+        </p>
+
+        <h3>3. المنتجات غير القابلة للاسترجاع</h3>
+        <p>
+            • المنتجات التي تم استخدامها  
+            • المنتجات التي تعرضت للتلف بعد الاستلام  
+            • المنتجات المفتوحة المتعلقة بالنظافة الشخصية مثل المرطبات  
+        </p>
+
+        <h3>4. استرجاع المبالغ</h3>
+        <p>
+            يتم استرجاع المبلغ خلال 5–10 أيام عمل عبر التحويل البنكي أو نفس وسيلة الدفع المستخدمة.
+        </p>
+
+        <h3>5. رسوم الشحن</h3>
+        <p>
+            يتحمل العميل رسوم الشحن في حال الاسترجاع، بينما تتحمل المؤسسة رسوم الشحن في حال الاستبدال بسبب خطأ في الطلب.
+        </p>
+
+        <h3>6. كيفية تقديم طلب الاسترجاع</h3>
+        <p>
+            يمكن تقديم طلب الاسترجاع أو الاستبدال عبر التواصل معنا مباشرة من خلال:
+            <br><br>
+            <strong>رقم الجوال:</strong> 0540708026  
+            <br>
+            <strong>البريد الإلكتروني:</strong> INFO@bashaeraltawreed.com
+        </p>
+
+        <h3>7. سياسة الضمان</h3>
+        <p>
+            بعض المنتجات مثل معدات الإطفاء والسترات تأتي بضمان ضد عيوب التصنيع لمدة محددة، ويتم توضيح ذلك في صفحة المنتج.
+        </p>
+
+    </div>
+</section>
+
+<!-- WhatsApp Button -->
+<a class="whatsapp-btn" href="https://wa.me/966540708026" target="_blank">
+    تواصل عبر واتساب
+</a>
+
+<footer>
+    © مؤسسة بشائر التوريد للتجارة — جميع الحقوق محفوظة
+</footer>
+
+<!-- Main JS -->
+<script src="js/main.js"></script>
+
+</body>
+</html>

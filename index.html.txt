@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8" />
+    <title>مؤسسة بشائر التوريد للتجارة</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@300;400;600;700&display=swap" rel="stylesheet">
+
+    <!-- Main CSS -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+<header>
+    <div class="container nav">
+        <div class="logo">
+            مؤسسة بشائر التوريد <span>للتجارة</span>
+        </div>
+
+        <div class="nav-links">
+            <a href="index.html">الرئيسية</a>
+            <a href="products.html">المنتجات</a>
+            <a href="about.html">نبذة عنا</a>
+            <a href="shop.html">المتجر</a>
+            <a href="offers.html">عروض الشركات</a>
+            <a href="contact.html">تواصل معنا</a>
+        </div>
+    </div>
+</header>
+
+<!-- Hero Section -->
+<section class="hero container">
+    <h1>سلامة العامل تبدأ من التفاصيل الصغيرة</h1>
+    <p>
+        في مؤسسة بشائر التوريد للتجارة، نؤمن أن حماية العامل ليست مجرد معدات…  
+        بل ثقافة تبدأ من الاهتمام بأدق التفاصيل. نقدم حلول سلامة فاخرة وعضوية لشركات المقاولات.
+    </p>
+
+    <button class="btn btn-primary" onclick="location.href='shop.html'">تسوّق الآن</button>
+    <button class="btn btn-outline" onclick="location.href='contact.html'">تواصل معنا</button>
+</section>
+
+<!-- Products Section -->
+<section class="container">
+    <h2 class="section-title">منتجات السلامة</h2>
+    <p class="section-subtitle">مجموعة مختارة بعناية لتناسب بيئات العمل في مشاريع المقاولات.</p>
+
+    <div class="products-grid">
+
+        <div class="product-card">
+            <img src="assets/images/product1.jpg" alt="مرطب شفاه عضوي">
+            <h3>مرطب شفاه عضوي للعمال</h3>
+            <p>يحمي من الجفاف والتشقق في المواقع الصحراوية.</p>
+            <p class="price">18 ريال</p>
+        </div>
+
+        <div class="product-card">
+            <img src="assets/images/product2.jpg" alt="سترة سلامة">
+            <h3>سترة سلامة عالية الانعكاس</h3>
+            <p>مصنوعة من مواد صديقة للبيئة مع شرائط انعكاسية.</p>
+            <p class="price">35 ريال</p>
+        </div>
+
+        <div class="product-card">
+            <img src="assets/images/product3.jpg" alt="طفاية حريق">
+            <h3>طفاية حريق بودرة 6 كجم</h3>
+            <p>معتمدة ومناسبة لمواقع البناء والمستودعات.</p>
+            <p class="price">120 ريال</p>
+        </div>
+
+    </div>
+</section>
+
+<!-- WhatsApp Button -->
+<a class="whatsapp-btn" href="https://wa.me/966540708026" target="_blank">
+    تواصل عبر واتساب
+</a>
+
+<footer>
+    © مؤسسة بشائر التوريد للتجارة — جميع الحقوق محفوظة
+</footer>
+
+<!-- Main JS -->
+<script src="js/main.js"></script>
+
+</body>
+</html>

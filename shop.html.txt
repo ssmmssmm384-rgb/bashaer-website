@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8" />
+    <title>المتجر | مؤسسة بشائر التوريد للتجارة</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@300;400;600;700&display=swap" rel="stylesheet">
+
+    <!-- Main CSS -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+<header>
+    <div class="container nav">
+        <div class="logo">
+            مؤسسة بشائر التوريد <span>للتجارة</span>
+        </div>
+
+        <div class="nav-links">
+            <a href="index.html">الرئيسية</a>
+            <a href="products.html">المنتجات</a>
+            <a href="about.html">نبذة عنا</a>
+            <a href="shop.html">المتجر</a>
+            <a href="offers.html">عروض الشركات</a>
+            <a href="contact.html">تواصل معنا</a>
+        </div>
+    </div>
+</header>
+
+<section class="container">
+    <h2 class="section-title">المتجر الإلكتروني</h2>
+    <p class="section-subtitle">اختر منتجاتك وأضفها للسلة، ثم أكمل عملية الطلب بسهولة.</p>
+
+    <div class="products-grid">
+
+        <!-- Product 1 -->
+        <div class="product-card">
+            <img src="assets/images/product1.jpg" alt="مرطب شفاه عضوي">
+            <h3>مرطب شفاه عضوي للعمال</h3>
+            <p>يحمي من الجفاف والتشقق في المواقع الصحراوية.</p>
+            <p class="price">18 ريال</p>
+            <button class="btn btn-primary" onclick="addToCart('مرطب شفاه عضوي', 18, 'assets/images/product1.jpg')">أضف للسلة</button>
+        </div>
+
+        <!-- Product 2 -->
+        <div class="product-card">
+            <img src="assets/images/product2.jpg" alt="سترة سلامة">
+            <h3>سترة سلامة عالية الانعكاس</h3>
+            <p>مواد صديقة للبيئة مع شرائط انعكاسية.</p>
+            <p class="price">35 ريال</p>
+            <button class="btn btn-primary" onclick="addToCart('سترة سلامة عالية الانعكاس', 35, 'assets/images/product2.jpg')">أضف للسلة</button>
+        </div>
+
+        <!-- Product 3 -->
+        <div class="product-card">
+            <img src="assets/images/product3.jpg" alt="طفاية حريق">
+            <h3>طفاية حريق بودرة 6 كجم</h3>
+            <p>معتمدة ومناسبة لمواقع البناء.</p>
+            <p class="price">120 ريال</p>
+            <button class="btn btn-primary" onclick="addToCart('طفاية حريق 6 كجم', 120, 'assets/images/product3.jpg')">أضف للسلة</button>
+        </div>
+
+        <!-- Product 4 -->
+        <div class="product-card">
+            <img src="assets/images/product4.jpg" alt="خوذة سلامة">
+            <h3>خوذة سلامة عالية التحمل</h3>
+            <p>مصممة لحماية الرأس في بيئات العمل القاسية.</p>
+            <p class="price">45 ريال</p>
+            <button class="btn btn-primary" onclick="addToCart('خوذة سلامة عالية التحمل', 45, 'assets/images/product4.jpg')">أضف للسلة</button>
+        </div>
+
+        <!-- Product 5 -->
+        <div class="product-card">
+            <img src="assets/images/product5.jpg" alt="نظارات واقية">
+            <h3>نظارات واقية ضد الغبار</h3>
+            <p>رؤية واضحة وحماية ممتازة للعين.</p>
+            <p class="price">22 ريال</p>
+            <button class="btn btn-primary" onclick="addToCart('نظارات واقية ضد الغبار', 22, 'assets/images/product5.jpg')">أضف للسلة</button>
+        </div>
+
+        <!-- Product 6 -->
+        <div class="product-card">
+            <img src="assets/images/product6.jpg" alt="حقيبة إسعاف">
+            <h3>حقيبة إسعاف أولي</h3>
+            <p>مناسبة للمواقع والمستودعات.</p>
+            <p class="price">210 ريال</p>
+            <button class="btn btn-primary" onclick="addToCart('حقيبة إسعاف أولي', 210, 'assets/images/product6.jpg')">أضف للسلة</button>
+        </div>
+
+    </div>
+</section>
+
+<!-- WhatsApp Button -->
+<a class="whatsapp-btn" href="https://wa.me/966540708026" target="_blank">
+    تواصل عبر واتساب
+</a>
+
+<footer>
+    © مؤسسة بشائر التوريد للتجارة — جميع الحقوق محفوظة
+</footer>
+
+<!-- Main JS -->
+<script src="js/main.js"></script>
+
+</body>
+</html>

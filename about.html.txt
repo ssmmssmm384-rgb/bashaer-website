@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8" />
+    <title>نبذة عنا | مؤسسة بشائر التوريد للتجارة</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@300;400;600;700&display=swap" rel="stylesheet">
+
+    <!-- Main CSS -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+<header>
+    <div class="container nav">
+        <div class="logo">
+            مؤسسة بشائر التوريد <span>للتجارة</span>
+        </div>
+
+        <div class="nav-links">
+            <a href="index.html">الرئيسية</a>
+            <a href="products.html">المنتجات</a>
+            <a href="about.html">نبذة عنا</a>
+            <a href="shop.html">المتجر</a>
+            <a href="offers.html">عروض الشركات</a>
+            <a href="contact.html">تواصل معنا</a>
+        </div>
+    </div>
+</header>
+
+<section class="container">
+    <h2 class="section-title">نبذة عن مؤسسة بشائر التوريد للتجارة</h2>
+    <p class="section-subtitle">رحلة بدأت من الاهتمام بسلامة العامل… حتى أصبحت علامة موثوقة في قطاع المقاولات.</p>
+
+    <div class="about-grid">
+
+        <div class="about-text">
+            <p>
+                تأسست مؤسسة بشائر التوريد للتجارة بهدف تقديم حلول سلامة أكثر صحة وفعالية لشركات المقاولات،
+                بعيدًا عن المنتجات التقليدية التي قد لا تناسب الاستخدام اليومي في بيئات العمل القاسية.
+            </p>
+
+            <p>
+                لاحظنا أن العامل في مواقع البناء يحتاج إلى منتجات تحميه فعليًا، وتوفر له الراحة، وتساعده على أداء
+                مهامه بكفاءة. ومن هنا جاءت فكرة تقديم منتجات سلامة فاخرة، بعضها عضوي وصديق للبيئة، لتكون
+                جزءًا من ثقافة الاهتمام بالإنسان قبل المعدات.
+            </p>
+
+            <p>
+                اليوم، نقدم مجموعة واسعة من معدات السلامة، من سترات عالية الانعكاس، إلى معدات الإطفاء، إلى
+                مرطبات عضوية مصممة خصيصًا لبيئات العمل الصحراوية.
+            </p>
+
+            <p>
+                رؤيتنا هي أن تصبح السلامة جزءًا من الهوية المهنية لكل شركة، وأن يشعر العامل بأن المؤسسة تهتم
+                بصحته وراحته، لأن **سلامة العامل تبدأ من التفاصيل الصغيرة**.
+            </p>
+        </div>
+
+        <div class="about-box">
+            <h3>رؤيتنا ورسالتنا</h3>
+            <p>
+                • تقديم منتجات سلامة فاخرة وفعالة تناسب بيئات العمل في المملكة.  
+                • تعزيز ثقافة الصحة المهنية في قطاع المقاولات.  
+                • توفير حلول عضوية وصديقة للبيئة للعاملين في المواقع الخارجية.  
+                • دعم الشركات في تحسين بيئة العمل وتقليل المخاطر.  
+            </p>
+        </div>
+
+    </div>
+</section>
+
+<!-- WhatsApp Button -->
+<a class="whatsapp-btn" href="https://wa.me/966540708026" target="_blank">
+    تواصل عبر واتساب
+</a>
+
+<footer>
+    © مؤسسة بشائر التوريد للتجارة — جميع الحقوق محفوظة
+</footer>
+
+<!-- Main JS -->
+<script src="js/main.js"></script>
+
+</body>
+</html>
